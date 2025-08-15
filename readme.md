@@ -27,22 +27,39 @@ Permite registrar actividades, organizarlas por proyectos o temas, y visualizar 
 ---
 
 ## 📂 Estructura del proyecto
+
+```text
 backend/
 ├─ node_modules/
 ├─ src/
-│ ├─ config/ # Carga de .env, logger, DB, etc.
-│ ├─ controllers/ # Lógica de orquestación por recurso
-│ ├─ handlers/ # Adaptadores req/res por ruta
-│ ├─ helpers/ # Utilidades puras 
-│ ├─ middlewares/ # Auth, validaciones, manejo de errores
-│ ├─ models/ # Modelos
-│ ├─ routes/ # Definición de endpoints y versionado
-│ ├─ services/ # Reglas de negocio y casos de uso
-│ ├─ validations/ # Schemas Joi y sanitización
-│ └─ index.js # Bootstrap del servidor
+│  ├─ config/         # Carga de .env, logger, DB, etc.
+│  ├─ controllers/    # Lógica de orquestación por recurso
+│  ├─ handlers/       # Adaptadores req/res por ruta
+│  ├─ helpers/        # Utilidades puras
+│  ├─ middlewares/    # Auth, validaciones, manejo de errores
+│  ├─ models/         # Modelos
+│  ├─ routes/         # Definición de endpoints y versionado
+│  ├─ services/       # Reglas de negocio y casos de uso
+│  ├─ validations/    # Schemas Joi y sanitización
+│  └─ index.js        # Bootstrap del servidor
 ├─ package.json
 ├─ package-lock.json
-└─ gitignore
+└─ .gitignore
+
 frontend/
-README.md
+└─ README.md
+```
+
+--- 
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT.  
+Puedes usar, copiar, modificar y distribuir el código con o sin fines comerciales, siempre que incluyas el aviso de copyright original.
+
+Consulta el archivo [LICENSE](LICENSE) para más información.
+
+
+
+
 
