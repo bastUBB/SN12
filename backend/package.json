@@ -8,9 +8,9 @@
   },
   "keywords": [],
   "author": "Bastián Rodríguez Campusano",
-  "license": "ISC",
+  "license": "MIT",
   "type": "module",
-  "description": "",
+  "description": "backend del proyecto sn12",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cookie-parser": "^1.4.7",
